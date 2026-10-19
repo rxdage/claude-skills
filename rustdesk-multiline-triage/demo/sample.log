@@ -1,0 +1,19 @@
+[2026-10-12 08:58:02.114 +00:00] INFO [src/rendezvous_mediator.rs] start rendezvous mediator of rd-a.example.com
+[2026-10-12 08:58:02.530 +00:00] WARN [src/common.rs] Failed to connect to rd-a.example.com:21115: Connection timed out (os error 10060)
+[2026-10-12 08:58:03.402 +00:00] INFO [src/client.rs] Connecting to peer 123456789 via rd-a.example.com
+[2026-10-12 08:58:05.871 +00:00] WARN [src/client.rs] hole punch timeout, falling back to relay
+[2026-10-12 08:58:06.330 +00:00] INFO [src/client.rs] Connected to relay relay-a.example.com
+[2026-10-12 09:41:17.009 +00:00] ERROR [src/client/io_loop.rs] Connection error: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2026-10-12 09:41:19.552 +00:00] INFO [src/client.rs] Reconnecting...
+[2026-10-12 09:41:22.780 +00:00] INFO [src/client.rs] Connected to relay relay-a.example.com
+[2026-10-12 10:12:44.315 +00:00] ERROR [src/client/io_loop.rs] Connection error: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2026-10-12 10:12:50.006 +00:00] WARN [src/client.rs] hole punch timeout, falling back to relay
+[2026-10-12 13:05:31.640 +00:00] ERROR [src/rendezvous_mediator.rs] Failed to register: deadline has elapsed
+[2026-10-12 13:05:31.641 +00:00] WARN [src/rendezvous_mediator.rs] Not ready. Please check your connection
+[2026-10-12 13:06:02.904 +00:00] INFO [src/rendezvous_mediator.rs] registered on rd-a.example.com
+[2026-10-13 09:39:58.277 +00:00] ERROR [src/client/io_loop.rs] Connection error: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2026-10-13 09:52:10.118 +00:00] ERROR [src/client/io_loop.rs] Connection error: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2026-10-13 11:20:45.733 +00:00] ERROR [src/client.rs] Failed to connect via relay server: Connection timed out (os error 10060)
+[2026-10-13 11:21:03.410 +00:00] INFO [src/client.rs] Connecting to peer 123456789 via rd-b.example.com
+[2026-10-13 11:21:04.022 +00:00] ERROR [src/client.rs] Key mismatch
+[2026-10-13 16:02:19.501 +00:00] WARN [src/server.rs] network changed, re-registering

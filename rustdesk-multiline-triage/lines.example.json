@@ -1,0 +1,10 @@
+{
+  "_comment": "One entry per way of reaching the remote machine. Copy to lines.json and fill in your hosts. Keep the real file out of version control.",
+  "lines": [
+    {"name": "self-hosted A", "kind": "id-relay", "host": "rustdesk-a.example.com"},
+    {"name": "self-hosted B (backup)", "kind": "id-relay", "host": "rustdesk-b.example.net"},
+    {"name": "VPN overlay, direct IP", "kind": "direct-ip", "host": "office-pc.your-tailnet.ts.net"},
+    {"name": "LAN, direct IP", "kind": "direct-ip", "host": "office-pc.local"},
+    {"name": "custom ports", "kind": "id-server", "host": "rustdesk-c.example.org", "tcp_ports": [31115, 31116]}
+  ]
+}
